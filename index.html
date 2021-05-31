@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Pete S. Calculator app</title>
+
+</head>
+<body class='theme1'>
+
+  <section id='header'>
+    <div class='container-main' style='padding: 0;'>
+      <div style="text-align: right;padding-right: 10px;">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+      </div>
+      <div class="row">
+        <div class='col brand'>
+          <a class="navbar-brand" href="#">calc</a>
+        </div>
+        <div class='col toggle-menu'>
+          <div class='row'>
+            <div class='col'>
+              <span>THEME</span>
+            </div>
+            <div class='col toggle' style='margin-top: 5px;'>
+              <div id='ball' type='button'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='result'>
+    <div class='container-main' id='screen'>
+      <p id='answer'></p>
+    </div>
+
+  </section>
+
+  <section id='calculator'>
+    <div class='container-main' id='keyboard'>
+      <div class='set-small'>
+        <button class='btn-small number'>7</button>
+        <button class='btn-small number'>8</button>
+        <button class='btn-small number'>9</button>
+        <button class='btn-small text'>DEL</button>
+      </div>
+      <div class='set-small'>
+        <button class='btn-small number'>4</button>
+        <button class='btn-small number'>5</button>
+        <button class='btn-small number'>6</button>
+        <button class='btn-small sign'>+</button>
+      </div>
+      <div class='set-small'>
+        <button class='btn-small number'>1</button>
+        <button class='btn-small number'>2</button>
+        <button class='btn-small number'>3</button>
+        <button class='btn-small sign'>-</button>
+      </div>
+      <div class='set-small'>
+        <button class='btn-small number'>.</button>
+        <button class='btn-small number'>0</button>
+        <button class='btn-small sign'>/</button>
+        <button class='btn-small sign'>x</button>
+      </div>
+      <div class='set-large'>
+        <button class='btn-large text'>RESET</button>
+        <button class='btn-large equals'>=</button>
+      </div>
+    </div>
+  </section>
+
+
+  <script rel='jQuery' src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pete S.</a>.
+  </div>
+
+</body>
+</html>
